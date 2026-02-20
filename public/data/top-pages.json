@@ -1,0 +1,114 @@
+{
+  "topPages": [
+    {
+      "path": "/",
+      "title": "Home Page",
+      "pageViews": 12458,
+      "uniquePageViews": 8934,
+      "avgTimeOnPage": 145,
+      "entrances": 7823,
+      "bounceRate": 0.38,
+      "exitRate": 0.25,
+      "change": 12.5
+    },
+    {
+      "path": "/products",
+      "title": "Products",
+      "pageViews": 8934,
+      "uniquePageViews": 6721,
+      "avgTimeOnPage": 234,
+      "entrances": 3456,
+      "bounceRate": 0.42,
+      "exitRate": 0.31,
+      "change": 8.3
+    },
+    {
+      "path": "/about",
+      "title": "About Us",
+      "pageViews": 5678,
+      "uniquePageViews": 4523,
+      "avgTimeOnPage": 189,
+      "entrances": 1234,
+      "bounceRate": 0.45,
+      "exitRate": 0.35,
+      "change": -3.2
+    },
+    {
+      "path": "/blog",
+      "title": "Blog",
+      "pageViews": 4523,
+      "uniquePageViews": 3456,
+      "avgTimeOnPage": 312,
+      "entrances": 2345,
+      "bounceRate": 0.35,
+      "exitRate": 0.28,
+      "change": 15.7
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "pageViews": 3456,
+      "uniquePageViews": 2890,
+      "avgTimeOnPage": 98,
+      "entrances": 567,
+      "bounceRate": 0.52,
+      "exitRate": 0.68,
+      "change": 5.4
+    },
+    {
+      "path": "/pricing",
+      "title": "Pricing",
+      "pageViews": 2890,
+      "uniquePageViews": 2345,
+      "avgTimeOnPage": 178,
+      "entrances": 890,
+      "bounceRate": 0.41,
+      "exitRate": 0.33,
+      "change": 9.8
+    },
+    {
+      "path": "/features",
+      "title": "Features",
+      "pageViews": 2345,
+      "uniquePageViews": 1890,
+      "avgTimeOnPage": 201,
+      "entrances": 456,
+      "bounceRate": 0.39,
+      "exitRate": 0.29,
+      "change": 6.2
+    },
+    {
+      "path": "/docs",
+      "title": "Documentation",
+      "pageViews": 1890,
+      "uniquePageViews": 1567,
+      "avgTimeOnPage": 456,
+      "entrances": 678,
+      "bounceRate": 0.29,
+      "exitRate": 0.22,
+      "change": 18.9
+    },
+    {
+      "path": "/careers",
+      "title": "Careers",
+      "pageViews": 1234,
+      "uniquePageViews": 1023,
+      "avgTimeOnPage": 134,
+      "entrances": 234,
+      "bounceRate": 0.48,
+      "exitRate": 0.42,
+      "change": -1.5
+    },
+    {
+      "path": "/support",
+      "title": "Support",
+      "pageViews": 1023,
+      "uniquePageViews": 890,
+      "avgTimeOnPage": 267,
+      "entrances": 345,
+      "bounceRate": 0.36,
+      "exitRate": 0.51,
+      "change": 11.3
+    }
+  ]
+}

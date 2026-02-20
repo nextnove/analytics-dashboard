@@ -1,0 +1,151 @@
+{
+  "countries": [
+    {
+      "country": "South Korea",
+      "countryCode": "KR",
+      "sessions": 28169,
+      "users": 23456,
+      "newUsers": 8934,
+      "bounceRate": 0.38,
+      "pagesPerSession": 3.4,
+      "avgSessionDuration": 234,
+      "percentage": 50.0
+    },
+    {
+      "country": "United States",
+      "countryCode": "US",
+      "sessions": 11267,
+      "users": 9234,
+      "newUsers": 4567,
+      "bounceRate": 0.42,
+      "pagesPerSession": 2.9,
+      "avgSessionDuration": 198,
+      "percentage": 20.0
+    },
+    {
+      "country": "Japan",
+      "countryCode": "JP",
+      "sessions": 5634,
+      "users": 4623,
+      "newUsers": 2345,
+      "bounceRate": 0.40,
+      "pagesPerSession": 3.1,
+      "avgSessionDuration": 212,
+      "percentage": 10.0
+    },
+    {
+      "country": "China",
+      "countryCode": "CN",
+      "sessions": 3380,
+      "users": 2789,
+      "newUsers": 1456,
+      "bounceRate": 0.45,
+      "pagesPerSession": 2.6,
+      "avgSessionDuration": 178,
+      "percentage": 6.0
+    },
+    {
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "sessions": 2254,
+      "users": 1867,
+      "newUsers": 890,
+      "bounceRate": 0.41,
+      "pagesPerSession": 2.8,
+      "avgSessionDuration": 189,
+      "percentage": 4.0
+    },
+    {
+      "country": "Germany",
+      "countryCode": "DE",
+      "sessions": 1690,
+      "users": 1423,
+      "newUsers": 678,
+      "bounceRate": 0.39,
+      "pagesPerSession": 3.0,
+      "avgSessionDuration": 201,
+      "percentage": 3.0
+    },
+    {
+      "country": "Canada",
+      "countryCode": "CA",
+      "sessions": 1408,
+      "users": 1189,
+      "newUsers": 567,
+      "bounceRate": 0.43,
+      "pagesPerSession": 2.7,
+      "avgSessionDuration": 185,
+      "percentage": 2.5
+    },
+    {
+      "country": "France",
+      "countryCode": "FR",
+      "sessions": 1127,
+      "users": 945,
+      "newUsers": 456,
+      "bounceRate": 0.44,
+      "pagesPerSession": 2.6,
+      "avgSessionDuration": 176,
+      "percentage": 2.0
+    },
+    {
+      "country": "Australia",
+      "countryCode": "AU",
+      "sessions": 845,
+      "users": 712,
+      "newUsers": 345,
+      "bounceRate": 0.40,
+      "pagesPerSession": 2.9,
+      "avgSessionDuration": 195,
+      "percentage": 1.5
+    },
+    {
+      "country": "Other",
+      "countryCode": "XX",
+      "sessions": 563,
+      "users": 478,
+      "newUsers": 234,
+      "bounceRate": 0.48,
+      "pagesPerSession": 2.3,
+      "avgSessionDuration": 156,
+      "percentage": 1.0
+    }
+  ],
+  "cities": [
+    {
+      "city": "Seoul",
+      "country": "South Korea",
+      "sessions": 15845,
+      "users": 13234,
+      "percentage": 28.1
+    },
+    {
+      "city": "New York",
+      "country": "United States",
+      "sessions": 3942,
+      "users": 3245,
+      "percentage": 7.0
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "sessions": 3380,
+      "users": 2789,
+      "percentage": 6.0
+    },
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "sessions": 1690,
+      "users": 1423,
+      "percentage": 3.0
+    },
+    {
+      "city": "Los Angeles",
+      "country": "United States",
+      "sessions": 1408,
+      "users": 1189,
+      "percentage": 2.5
+    }
+  ]
+}

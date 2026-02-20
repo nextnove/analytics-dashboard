@@ -1,0 +1,32 @@
+{
+  "hourlyTraffic": [
+    { "hour": "00:00", "visitors": 1234, "pageViews": 2456, "sessions": 1189, "bounceRate": 0.45 },
+    { "hour": "01:00", "visitors": 987, "pageViews": 1923, "sessions": 945, "bounceRate": 0.48 },
+    { "hour": "02:00", "visitors": 756, "pageViews": 1467, "sessions": 723, "bounceRate": 0.51 },
+    { "hour": "03:00", "visitors": 623, "pageViews": 1234, "sessions": 598, "bounceRate": 0.52 },
+    { "hour": "04:00", "visitors": 534, "pageViews": 1056, "sessions": 512, "bounceRate": 0.53 },
+    { "hour": "05:00", "visitors": 678, "pageViews": 1345, "sessions": 651, "bounceRate": 0.50 },
+    { "hour": "06:00", "visitors": 1123, "pageViews": 2234, "sessions": 1078, "bounceRate": 0.47 },
+    { "hour": "07:00", "visitors": 1567, "pageViews": 3123, "sessions": 1504, "bounceRate": 0.44 },
+    { "hour": "08:00", "visitors": 2134, "pageViews": 4256, "sessions": 2048, "bounceRate": 0.41 },
+    { "hour": "09:00", "visitors": 2789, "pageViews": 5567, "sessions": 2678, "bounceRate": 0.38 },
+    { "hour": "10:00", "visitors": 3245, "pageViews": 6478, "sessions": 3117, "bounceRate": 0.36 },
+    { "hour": "11:00", "visitors": 3456, "pageViews": 6912, "sessions": 3321, "bounceRate": 0.35 },
+    { "hour": "12:00", "visitors": 3123, "pageViews": 6234, "sessions": 2998, "bounceRate": 0.37 },
+    { "hour": "13:00", "visitors": 2987, "pageViews": 5967, "sessions": 2867, "bounceRate": 0.38 },
+    { "hour": "14:00", "visitors": 3234, "pageViews": 6456, "sessions": 3106, "bounceRate": 0.36 },
+    { "hour": "15:00", "visitors": 3456, "pageViews": 6901, "sessions": 3318, "bounceRate": 0.35 },
+    { "hour": "16:00", "visitors": 3567, "pageViews": 7123, "sessions": 3425, "bounceRate": 0.34 },
+    { "hour": "17:00", "visitors": 3234, "pageViews": 6456, "sessions": 3106, "bounceRate": 0.36 },
+    { "hour": "18:00", "visitors": 2890, "pageViews": 5767, "sessions": 2775, "bounceRate": 0.38 },
+    { "hour": "19:00", "visitors": 2567, "pageViews": 5123, "sessions": 2465, "bounceRate": 0.40 },
+    { "hour": "20:00", "visitors": 2234, "pageViews": 4456, "sessions": 2145, "bounceRate": 0.41 },
+    { "hour": "21:00", "visitors": 1890, "pageViews": 3767, "sessions": 1815, "bounceRate": 0.43 },
+    { "hour": "22:00", "visitors": 1567, "pageViews": 3123, "sessions": 1504, "bounceRate": 0.44 },
+    { "hour": "23:00", "visitors": 1345, "pageViews": 2678, "sessions": 1292, "bounceRate": 0.46 }
+  ],
+  "totalVisitors": 56421,
+  "totalPageViews": 112456,
+  "totalSessions": 54178,
+  "averageBounceRate": 0.41
+}

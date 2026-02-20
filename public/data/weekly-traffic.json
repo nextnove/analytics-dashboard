@@ -1,0 +1,15 @@
+{
+  "weeklyTraffic": [
+    { "date": "02/13", "visitors": 45234, "pageViews": 89456, "sessions": 43421, "bounceRate": 0.42 },
+    { "date": "02/14", "visitors": 48567, "pageViews": 96234, "sessions": 46678, "bounceRate": 0.40 },
+    { "date": "02/15", "visitors": 51234, "pageViews": 102456, "sessions": 49234, "bounceRate": 0.39 },
+    { "date": "02/16", "visitors": 49890, "pageViews": 98765, "sessions": 47890, "bounceRate": 0.41 },
+    { "date": "02/17", "visitors": 52345, "pageViews": 104567, "sessions": 50234, "bounceRate": 0.38 },
+    { "date": "02/18", "visitors": 54678, "pageViews": 109234, "sessions": 52456, "bounceRate": 0.37 },
+    { "date": "02/19", "visitors": 56421, "pageViews": 112456, "sessions": 54178, "bounceRate": 0.36 }
+  ],
+  "totalVisitors": 358369,
+  "totalPageViews": 713168,
+  "totalSessions": 344091,
+  "averageBounceRate": 0.39
+}

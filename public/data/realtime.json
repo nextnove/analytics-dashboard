@@ -1,0 +1,43 @@
+{
+  "realtime": {
+    "activeUsers": 1247,
+    "screenPageViews": 3892,
+    "averageSessionDuration": 204,
+    "bounceRate": 0.423,
+    "newUsers": 456,
+    "returningUsers": 791,
+    "conversions": 89,
+    "revenue": 12458.50
+  },
+  "comparison": {
+    "activeUsers": {
+      "current": 1247,
+      "previous": 1112,
+      "change": 12.1
+    },
+    "screenPageViews": {
+      "current": 3892,
+      "previous": 3601,
+      "change": 8.1
+    },
+    "averageSessionDuration": {
+      "current": 204,
+      "previous": 198,
+      "change": 3.0
+    },
+    "bounceRate": {
+      "current": 0.423,
+      "previous": 0.445,
+      "change": -4.9
+    }
+  },
+  "yesterday": {
+    "visitors": 54678,
+    "pageViews": 109234
+  },
+  "total": {
+    "visitors": 2847561,
+    "pageViews": 5694328
+  },
+  "timestamp": "2026-02-19T08:30:00Z"
+}

@@ -1,0 +1,102 @@
+{
+  "trafficSources": [
+    {
+      "source": "Direct",
+      "medium": "(none)",
+      "sessions": 25389,
+      "users": 18234,
+      "newUsers": 5678,
+      "bounceRate": 0.35,
+      "pagesPerSession": 3.4,
+      "avgSessionDuration": 234,
+      "percentage": 45.2,
+      "change": 8.5
+    },
+    {
+      "source": "Google",
+      "medium": "organic",
+      "sessions": 16892,
+      "users": 14567,
+      "newUsers": 8934,
+      "bounceRate": 0.42,
+      "pagesPerSession": 2.8,
+      "avgSessionDuration": 189,
+      "percentage": 30.1,
+      "change": 12.3
+    },
+    {
+      "source": "Facebook",
+      "medium": "social",
+      "sessions": 5623,
+      "users": 4890,
+      "newUsers": 3456,
+      "bounceRate": 0.51,
+      "pagesPerSession": 2.1,
+      "avgSessionDuration": 145,
+      "percentage": 10.0,
+      "change": -3.7
+    },
+    {
+      "source": "Twitter",
+      "medium": "social",
+      "sessions": 2811,
+      "users": 2456,
+      "newUsers": 1890,
+      "bounceRate": 0.48,
+      "pagesPerSession": 2.3,
+      "avgSessionDuration": 156,
+      "percentage": 5.0,
+      "change": 15.8
+    },
+    {
+      "source": "LinkedIn",
+      "medium": "social",
+      "sessions": 2249,
+      "users": 1923,
+      "newUsers": 1234,
+      "bounceRate": 0.39,
+      "pagesPerSession": 3.1,
+      "avgSessionDuration": 201,
+      "percentage": 4.0,
+      "change": 9.2
+    },
+    {
+      "source": "Referral",
+      "medium": "referral",
+      "sessions": 1687,
+      "users": 1456,
+      "newUsers": 890,
+      "bounceRate": 0.44,
+      "pagesPerSession": 2.6,
+      "avgSessionDuration": 178,
+      "percentage": 3.0,
+      "change": 6.4
+    },
+    {
+      "source": "Email",
+      "medium": "email",
+      "sessions": 1124,
+      "users": 967,
+      "newUsers": 456,
+      "bounceRate": 0.31,
+      "pagesPerSession": 4.2,
+      "avgSessionDuration": 289,
+      "percentage": 2.0,
+      "change": 22.1
+    },
+    {
+      "source": "YouTube",
+      "medium": "video",
+      "sessions": 562,
+      "users": 489,
+      "newUsers": 312,
+      "bounceRate": 0.55,
+      "pagesPerSession": 1.9,
+      "avgSessionDuration": 134,
+      "percentage": 1.0,
+      "change": -5.3
+    }
+  ],
+  "totalSessions": 56337,
+  "totalUsers": 45982
+}

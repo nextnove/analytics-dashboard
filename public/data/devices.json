@@ -1,0 +1,104 @@
+{
+  "devices": [
+    {
+      "category": "Desktop",
+      "sessions": 31386,
+      "users": 25634,
+      "bounceRate": 0.38,
+      "pagesPerSession": 3.2,
+      "percentage": 55.7
+    },
+    {
+      "category": "Mobile",
+      "sessions": 21935,
+      "users": 18234,
+      "bounceRate": 0.45,
+      "pagesPerSession": 2.4,
+      "percentage": 38.9
+    },
+    {
+      "category": "Tablet",
+      "sessions": 3042,
+      "users": 2567,
+      "bounceRate": 0.41,
+      "pagesPerSession": 2.8,
+      "percentage": 5.4
+    }
+  ],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "sessions": 31950,
+      "percentage": 56.7,
+      "bounceRate": 0.40
+    },
+    {
+      "name": "Safari",
+      "sessions": 11267,
+      "percentage": 20.0,
+      "bounceRate": 0.43
+    },
+    {
+      "name": "Firefox",
+      "sessions": 6761,
+      "percentage": 12.0,
+      "bounceRate": 0.39
+    },
+    {
+      "name": "Edge",
+      "sessions": 3942,
+      "percentage": 7.0,
+      "bounceRate": 0.41
+    },
+    {
+      "name": "Samsung Internet",
+      "sessions": 1690,
+      "percentage": 3.0,
+      "bounceRate": 0.47
+    },
+    {
+      "name": "Opera",
+      "sessions": 563,
+      "percentage": 1.0,
+      "bounceRate": 0.44
+    },
+    {
+      "name": "Other",
+      "sessions": 169,
+      "percentage": 0.3,
+      "bounceRate": 0.52
+    }
+  ],
+  "operatingSystems": [
+    {
+      "name": "Windows",
+      "sessions": 25389,
+      "percentage": 45.0,
+      "bounceRate": 0.39
+    },
+    {
+      "name": "iOS",
+      "sessions": 14081,
+      "percentage": 25.0,
+      "bounceRate": 0.42
+    },
+    {
+      "name": "Android",
+      "sessions": 10127,
+      "percentage": 18.0,
+      "bounceRate": 0.47
+    },
+    {
+      "name": "macOS",
+      "sessions": 5634,
+      "percentage": 10.0,
+      "bounceRate": 0.36
+    },
+    {
+      "name": "Linux",
+      "sessions": 1127,
+      "percentage": 2.0,
+      "bounceRate": 0.35
+    }
+  ]
+}

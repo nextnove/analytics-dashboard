@@ -1,0 +1,15 @@
+{
+  "previousWeekTraffic": [
+    { "date": "02/06", "visitors": 40123, "pageViews": 79234, "sessions": 38567, "bounceRate": 0.46 },
+    { "date": "02/07", "visitors": 41234, "pageViews": 81456, "sessions": 39678, "bounceRate": 0.45 },
+    { "date": "02/08", "visitors": 42345, "pageViews": 83678, "sessions": 40789, "bounceRate": 0.44 },
+    { "date": "02/09", "visitors": 40890, "pageViews": 80765, "sessions": 39234, "bounceRate": 0.46 },
+    { "date": "02/10", "visitors": 42567, "pageViews": 84123, "sessions": 40890, "bounceRate": 0.44 },
+    { "date": "02/11", "visitors": 43678, "pageViews": 86345, "sessions": 41901, "bounceRate": 0.43 },
+    { "date": "02/12", "visitors": 44789, "pageViews": 88567, "sessions": 43012, "bounceRate": 0.42 }
+  ],
+  "totalVisitors": 295626,
+  "totalPageViews": 584168,
+  "totalSessions": 284071,
+  "averageBounceRate": 0.44
+}
