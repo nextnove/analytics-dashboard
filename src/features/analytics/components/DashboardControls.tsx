@@ -34,7 +34,7 @@ export const DashboardControls = ({
             <button
               key={range.value}
               onClick={() => onDateRangeChange(range.value)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
                 dateRange === range.value
                   ? 'bg-cyan-500 text-white'
                   : theme === 'dark'
@@ -50,7 +50,7 @@ export const DashboardControls = ({
         {dateRange === '7days' && (
           <button
             onClick={onCompareToggle}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 ${
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer flex items-center gap-2 ${
               compareEnabled
                 ? 'bg-purple-500 text-white'
                 : theme === 'dark'
@@ -67,7 +67,7 @@ export const DashboardControls = ({
       <div className="flex items-center gap-2">
         <button
           onClick={onDownloadCSV}
-          className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors ${
+          className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors cursor-pointer ${
             theme === 'dark'
               ? 'bg-zinc-900 text-zinc-400 hover:bg-zinc-800 border border-zinc-800'
               : 'bg-white text-zinc-600 hover:bg-zinc-100 border border-zinc-200'
@@ -78,7 +78,7 @@ export const DashboardControls = ({
         </button>
         <button
           onClick={onDownloadJSON}
-          className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors ${
+          className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors cursor-pointer ${
             theme === 'dark'
               ? 'bg-zinc-900 text-zinc-400 hover:bg-zinc-800 border border-zinc-800'
               : 'bg-white text-zinc-600 hover:bg-zinc-100 border border-zinc-200'

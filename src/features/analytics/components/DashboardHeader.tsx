@@ -39,7 +39,7 @@ export const DashboardHeader = ({
 
         <button
           onClick={onThemeToggle}
-          className={`p-2 rounded-lg transition-colors ${
+          className={`p-2 rounded-lg transition-colors cursor-pointer ${
             theme === 'dark' ? 'bg-zinc-900 hover:bg-zinc-800' : 'bg-white hover:bg-zinc-100'
           } border ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
         >
