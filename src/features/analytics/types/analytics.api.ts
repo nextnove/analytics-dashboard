@@ -24,6 +24,7 @@ export interface RealtimeData {
 
 export interface HourlyData {
   hour: string;
+  date?: string;  // JSON 데이터에서 date로 올 수 있음
   visitors: number;
   pageViews: number;
   sessions: number;

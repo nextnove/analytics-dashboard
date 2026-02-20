@@ -19,28 +19,34 @@ export interface AnalyticsData {
   countries: Country[];
 }
 
+// Vite의 base path를 가져옵니다 (import.meta.env.BASE_URL)
+const getDataPath = (filename: string) => {
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base}data/${filename}`;
+};
+
 export const analyticsService = {
   async fetchAnalyticsData(
     dateRange: DateRange, 
     compareEnabled: boolean
   ): Promise<AnalyticsData> {
     const trafficFile = dateRange === 'today' 
-      ? '/data/hourly-traffic.json'
+      ? 'hourly-traffic.json'
       : dateRange === '7days'
-      ? '/data/weekly-traffic.json'
-      : '/data/monthly-traffic.json';
+      ? 'weekly-traffic.json'
+      : 'monthly-traffic.json';
 
     const requests = [
-      fetch('/data/realtime.json'),
-      fetch(trafficFile),
-      fetch('/data/top-pages.json'),
-      fetch('/data/traffic-sources.json'),
-      fetch('/data/devices.json'),
-      fetch('/data/geography.json')
+      fetch(getDataPath('realtime.json')),
+      fetch(getDataPath(trafficFile)),
+      fetch(getDataPath('top-pages.json')),
+      fetch(getDataPath('traffic-sources.json')),
+      fetch(getDataPath('devices.json')),
+      fetch(getDataPath('geography.json'))
     ];
 
     if (compareEnabled && dateRange === '7days') {
-      requests.push(fetch('/data/previous-week-traffic.json'));
+      requests.push(fetch(getDataPath('previous-week-traffic.json')));
     }
 
     const responses = await Promise.all(requests);
@@ -53,8 +59,8 @@ export const analyticsService = {
     if (dateRange === 'today') {
       hourlyData = traffic.hourlyTraffic.slice(-12);
     } else if (dateRange === '7days') {
-      const currentWeek = traffic.weeklyTraffic.map((d: any) => ({
-        hour: d.date,
+      const currentWeek = traffic.weeklyTraffic.map((d: HourlyData) => ({
+        hour: d.date || d.hour,
         visitors: d.visitors,
         pageViews: d.pageViews,
         sessions: d.sessions,
@@ -62,7 +68,7 @@ export const analyticsService = {
       }));
 
       if (compareEnabled && prevWeek) {
-        hourlyData = currentWeek.map((curr: any, index: number) => ({
+        hourlyData = currentWeek.map((curr: HourlyData, index: number) => ({
           ...curr,
           prevVisitors: prevWeek.previousWeekTraffic[index]?.visitors || 0,
           prevPageViews: prevWeek.previousWeekTraffic[index]?.pageViews || 0
@@ -71,8 +77,8 @@ export const analyticsService = {
         hourlyData = currentWeek;
       }
     } else {
-      hourlyData = traffic.monthlyTraffic.map((d: any) => ({
-        hour: d.date,
+      hourlyData = traffic.monthlyTraffic.map((d: HourlyData) => ({
+        hour: d.date || d.hour,
         visitors: d.visitors,
         pageViews: d.pageViews,
         sessions: d.sessions,

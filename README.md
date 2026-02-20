@@ -523,6 +523,70 @@ export const useCustomHook = () => {
 
 ## 🚀 배포
 
+### GitHub Pages 배포
+
+**1. vite.config.ts 확인**
+```typescript
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/analytics-dashboard/' : '/',
+  // 저장소 이름에 맞게 수정하세요
+}))
+```
+
+**2. GitHub Actions 워크플로우 생성**
+
+`.github/workflows/deploy.yml` 파일을 생성하세요:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+      - uses: actions/deploy-pages@v4
+```
+
+**3. 배포**
+```bash
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push origin main
+```
+
+**4. GitHub Pages 활성화**
+- GitHub 저장소 → Settings → Pages
+- Source: GitHub Actions 선택
+
+**배포 URL:**
+```
+https://YOUR_USERNAME.github.io/analytics-dashboard/
+```
+
+> 📝 상세한 배포 가이드는 [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)를 참고하세요.
+
+
 ### Vercel 배포
 ```bash
 npm run build
